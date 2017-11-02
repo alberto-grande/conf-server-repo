@@ -2,3 +2,5 @@ spring:
   data:
     mongodb:
       uri: mongodb://microservices:0000@mongodb:27017/microservices
+  zipkin:
+    baseUrl: http://192.168.99.1:9411 
