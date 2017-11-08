@@ -3,4 +3,6 @@ spring:
     mongodb:
       uri: mongodb://microservices:0000@mongodb:27017/microservices
   zipkin:
-    baseUrl: http://172.17.0.1:9411      
+    baseUrl: http://172.17.0.1:9411
+
+logstashserver: 172.17.0.1
